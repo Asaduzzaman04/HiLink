@@ -33,12 +33,7 @@ const LeftContent = () => {
                 {/* Left Content */}
                 <div className="w-full flex flex-col  justify-center items-start">
                     <div className="relative">
-                        <div className="absolute left-0 -top-3">
-                            <Image src={HomeImage} alt="home image" height={34} width={34} />
-                        </div>
-                        <p className="uppercase font-normal mt-7 mb-3 text-green-500">
-                            We are here for you
-                        </p>
+
                         <h2 className="text-3xl lg:text-6xl xl:max-w-[390px] font-bold">
                             Guide You to Easy Path
                         </h2>
