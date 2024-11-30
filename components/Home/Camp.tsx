@@ -4,7 +4,7 @@ import CampQuote from "@/components/Camp/CampQuote";
 
 const Camp = () => {
     return (
-        <section className={`px-6  lg:px-20 xl:px-32 border-black w-full 2xl:w-full relative flex justify-end  items-end flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20`}>
+        <section className={`px-6  lg:px-20 xl:px-32 border-black w-full 2xl:w-full relative flex justify-end  items-end flex-col py-10 lg:mb-10 lg:py-10 xl:mb-10`}>
             {/*bg images section*/}
            <div className={`hide-scrollbar overflow-x-auto h-[340px] lg:h-[440px] xl:h-[640px] w-full flex   justify-start items-start gap-8 `}>
 

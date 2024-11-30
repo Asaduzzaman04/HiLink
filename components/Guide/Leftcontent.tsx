@@ -49,7 +49,7 @@ const LeftContent = () => {
             {/* Right Section: This will animate from right to left */}
             <motion.div
                 ref={rightRef}
-                className="lg:pr-10 lg:py-14 p-6 py-10   h-full flex justify-center items-start"
+                className="lg:pr-10 lg:py-14  py-10   h-full flex justify-center items-start"
                 initial={{ opacity: 0, x: 50, scale: 0 }} // Initial state (invisible and off-screen to the right)
                 animate={{
                     opacity: inViewRight ? 1 : 0,
@@ -58,7 +58,7 @@ const LeftContent = () => {
                 }} // Animates while in view
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
-                <p className="regular-16 text-gray-700 text-center">
+                <p className="font-medium  text-gray-700 text-justify">
                     Only with the hilink application you will no longer get lost and get lost again,
                     because we already support offline maps when there is no internet connection in the field.
                     Invite your friends, relatives, and friends to have fun in the wilderness through
