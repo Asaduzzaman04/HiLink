@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     return (
         <section className="px-6 lg:px-20 xl:px-32 mx-auto w-full h-full py-10 pb-40 flex flex-col justify-around items-center gap-16 md:gap-20 xl:flex-row lg:gap-28">
             {/* background image for hero section */}
-            <div className="hero_map" />
+            <div className="hero_map "  />
 
             {/* Left side */}
             <HeroLeft/>

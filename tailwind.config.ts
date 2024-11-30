@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       keyframes: {
         heroAnimation: {
           '0%': { transform: 'scale(0)', opacity: '0' },

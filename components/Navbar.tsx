@@ -7,30 +7,30 @@ import SmallDeviceNavbar from "@/components/smallDeviceNavlinks";
 import LargeDeviceNavLinks from "@/components/LargeDeviceNavLinks";
 
 const Navbar = () => {
-  return (
-      <nav className=" flex  justify-between  lg:justify-around  items-center px-5 lg:px-0 py-5">
-          {/* Logo */}
-          <Link href="/" passHref>
-              <Image src={HinikLogo} alt="Hilink Logo" width={120} height={40}/>
-          </Link>
+    return (
+        <nav className=" flex  justify-between  lg:justify-around  items-center px-5 lg:px-0 py-5">
+            {/* Logo */}
+            <Link href="/" passHref>
+                <Image src={HinikLogo} alt="Hilink Logo" width={120} height={40} />
+            </Link>
 
-          {/* Navigation Links large device */}
-          <LargeDeviceNavLinks/>
-          {/* Login Icon for Large Devices */}
-          <div className="hidden lg:flex items-center">
-              <Button
-                  type="button"
-                  title="Log in"
-                  icon={UserLogo}
-                  variant={"login_btn"}
-              />
-          </div>
-          {/* Navigation Links small device */}
+            {/* Navigation Links large device */}
+            <LargeDeviceNavLinks />
+            {/* Login Icon for Large Devices */}
+            <div className="hidden lg:flex items-center">
+                <Button
+                    type="button"
+                    title="Log in"
+                    icon={UserLogo}
+                    variant={"login_btn"}
+                />
+            </div>
+            {/* Navigation Links small device */}
 
-          <SmallDeviceNavbar/>
+            <SmallDeviceNavbar />
 
-      </nav>
-  );
+        </nav>
+    );
 };
 
 export default Navbar;

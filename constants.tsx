@@ -16,7 +16,7 @@ export const NAV_LINKS = [
   ];
   
   // FEATURES SECTION
-  export const FEATURES = [
+  export const FEATURES  = [
     {
       title: 'Real maps can be offline',
       icon: '/map.svg',

@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${poppinsFont.variable} ${poppinsFont.variable} antialiased`}
       >
         {/* navbar */}
-        <Navbar/>
+        <Navbar />
         <main className="overflow-hidden relative">{children}</main>
       </body>
     </html>
