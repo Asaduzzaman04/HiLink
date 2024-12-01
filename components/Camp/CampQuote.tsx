@@ -34,7 +34,7 @@ const CampQuote: React.FC = () => {
         </h2>
         <p className="regular-14 xl:regular-16 mt-5 text-white">
           Starting from the anxiety of the climbers when visiting a new climbing
-          location, the possibility of getting lost is very large. That's why we
+          location, the possibility of getting lost is very large. That why we
           are here for those of you who want to start an adventure.
         </p>
         <Image

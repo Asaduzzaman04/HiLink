@@ -1,7 +1,5 @@
 "use client";
 import React, { useRef } from "react";
-import Image from "next/image";
-import HomeImage from "@/public/camp.svg";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 
