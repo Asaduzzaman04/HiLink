@@ -5,8 +5,8 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-::selection{
-  background-color: #50C878;
+::selection {
+  background-color: #50c878;
 }
 
 /*? css for buttons */

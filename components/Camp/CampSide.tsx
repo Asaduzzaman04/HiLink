@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import FoldedImage from "@/public/folded-map.svg";
-import {PEOPLE_URL} from "@/constants";
+import { PEOPLE_URL } from "@/constants";
 
 type campType = {
   backgroundImage: string;
@@ -34,13 +34,11 @@ const CampSide = ({
         </div>
 
         <div className={`flex justify-center items-center  gap-4`}>
-
-            <span className={`flex justify-center items-center -space-x-2.5`}>
-
+          <span className={`flex justify-center items-center -space-x-2.5`}>
             {PEOPLE_URL?.map((url: string, idx: number) => (
-
-                <Image alt={url} src={url} key={++idx} width={30} height={30}/>))}
-            </span>
+              <Image alt={url} src={url} key={++idx} width={30} height={30} />
+            ))}
+          </span>
 
           <p className="font-semibold  ">{peopleJoined}</p>
         </div>
